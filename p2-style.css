@@ -1,0 +1,75 @@
+.charS {
+display:none; /*hides the smaller header image while the window is large*/
+}
+
+body {
+background-color: #454543;
+}	
+
+a:visited, a:link {
+color: white;
+background-color: transparent;
+text-decoration: underline;
+}
+
+a:active, a:hover{
+color: #c2c8d1;
+background-color: transparent;
+text-decoration: underline;
+}
+
+header{
+text-align: center;
+color:white
+}
+
+footer{
+color:white
+}
+
+nav {
+text-align: left
+}
+
+h2 {
+color: black;
+}
+
+main {
+display: flex;	/*uses flexboxes for this page*/
+flex-direction: column;
+text-align: justify;
+margin-left: 5%;
+margin-right: 5%;
+border: 2px solid white
+}
+
+section {
+display: flex;
+flex-direction: column;
+align-items: center;	
+width: 50%;
+margin: auto;
+padding: 40px;
+color: white;
+background-color: white;
+}
+
+article {
+background-color: grey;
+padding: 20px;
+}
+
+@media screen and (max-width:990px) {
+.charF, .ynier, .yyonah {
+	display:none	/*removes the big header image and secondary images for some sections to make the page look better in smaller window*/
+	}
+.charS {
+	display:inline	/*shows the smaller version of the header image*/
+	}
+}
+
+.old-paper-mode {
+background-color:#b39c70;
+color:white;
+}

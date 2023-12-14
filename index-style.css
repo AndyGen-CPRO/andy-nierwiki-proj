@@ -1,0 +1,53 @@
+body {
+background-color: #454543;
+color:white;
+}	
+
+a:visited, a:link {
+color: white;
+background-color: transparent;
+text-decoration: underline;
+}
+
+a:active, a:hover{
+color: #c2c8d1;
+background-color: transparent;
+text-decoration: underline;
+}
+
+header {
+text-align:center;
+}
+
+.smallImg{	/*hides the small version of the image in a normal window*/
+display:none
+}
+
+main{
+display: grid;	/*uses grids for this page*/
+grid-template-columns: auto auto;
+grid-gap: 10px;
+text-align: justify
+}
+
+aside{
+padding-right: 20px;	
+border-right: 1px solid white
+}
+
+@media screen and (max-width:990px) {
+main {
+	display: block /*converts the content to block element when screen gets compressed to a certain point*/
+	}
+.fullImg {
+	display:none; /*hides the big image*/
+	}
+.smallImg {
+	display:block; /*now shows the small image instead*/
+	}
+}
+
+.old-paper-mode {
+background-color:#b39c70;
+color:white;
+}

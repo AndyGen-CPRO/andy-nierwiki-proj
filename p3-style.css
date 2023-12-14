@@ -1,0 +1,99 @@
+body {
+	background-color: #454543;
+	color:white;
+	}	
+	
+a:visited, a:link {
+	color: white;
+	background-color: transparent;
+	text-decoration: underline;
+	}
+	
+	a:active, a:hover{
+	color: #c2c8d1;
+	background-color: transparent;
+	text-decoration: underline;
+	}
+	
+.endImgS, .end1S, .end2S, .end3S, .end4S, .end5S, .lastS {	/*hides the small images while the window is large*/
+	display:none
+	}
+	
+main {
+	margin-left: 3%;
+	margin-right: 2%;
+	border: 2px solid white
+	}
+	
+.normalfont {
+	font-style:normal;
+	}
+	
+h3 {
+	font-style:italic
+	}
+	
+.center {
+	text-align: center;
+	}
+	
+article {
+	display: grid;	/*uses grids for this page*/
+	grid-auto-flow: column;
+	grid-column-gap: 50px;
+	width: 60%;
+	text-align: justify;
+	padding: 10px;
+	background-color: grey;
+	}
+	
+.right {
+	margin-right:10%;
+	margin-left:auto;
+	float:right;
+	}	
+	
+.left {
+	margin-left:10%;
+	margin-right:auto;
+	float:left;
+	}
+	
+img {
+	padding-top: 10px;
+	}
+	
+section {
+	color:white;
+}
+
+section:nth-child(odd){
+	text-align:right;
+	}
+	
+iframe {
+	float: left;
+	width: 47%;
+	height: 300px;
+	padding: 10px 0px 10px 0px
+	}
+	
+@media screen and (max-width:990px) {
+	.endImgF, .end1F, .end2F, .end3F, .end4F, .end5F, .lastF {	/*hides the large images*/
+		display:none
+		}
+	.endImgS, .end1S, .end2S, .end3S, .end4S, .end5S, .lastS {	/*shows the small images*/
+		display:inline
+		}
+	iframe {	/*hides the iframe when on a smaller window*/
+		display:none;
+		}	
+	article {	/*turns the grid to block elements when on smaller window*/
+		display:block;
+		width:50%
+		}
+	}
+.old-paper-mode {
+	background-color:#b39c70;
+	color:white;
+	}

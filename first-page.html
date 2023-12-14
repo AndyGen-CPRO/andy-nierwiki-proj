@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html lang="en">
+		<head>
+			<meta charset="utf-8">
+			<title>Summary</title>
+			<link rel="stylesheet" href="p1-style.css">	
+			<script>
+				function OldPaperMode() {
+					var element = document.body
+					element.classList.toggle("old-paper-mode");
+					}
+			</script>
+		</head>
+		
+		<body>
+			<header> <!--header that shows an image, the page title, and a link to the front page-->
+				<div class="center">
+					<img class="summF" src =./images/summary/summary.jpg alt="summary thumbnail">
+					<img class="summS" src =./images/summary/summary-s.jpg alt="summary thumbnail">
+					<h1>Summary</h1>
+				</div>
+				<nav>
+					<a href="index.html">Return to front page</a>
+					<h3>Page Content:</h3>
+					<ul> <!--links that lets the user jump to different parts of the page using id selector-->
+						<li><a href="#prologue">Prologue</a></li>
+						<li><a href="#act1">Act I</a></li>
+						<li><a href="#act2">Act II</a></li>
+					</ul>
+				</nav>
+			</header>
+			
+			<main> <!--Different contents of the page is seperated by sections-->
+				<section class="center" id="prologue" >
+					<img class="prolF" src =./images/summary/prologue.jpg alt="prologue screenshot">
+					<img class="prolS" src =./images/summary/prologue-s.jpg alt="prologue screenshot">
+					<h2>Prologue</h2>
+					<article>
+						<h4>1.22474487139...</h4>
+						<p>The game introduces us to the world set in the summer of 2053. It introduces us a young man who was struggling to survive with his sister. Alongside them are two mysterious black books that seemed to be following them, manipulating them to touch them. The young man avoids to make contact with them that is until the siblings have been attacked by strange shadow-like monsters. Beaten by these monsters, the young man had no choice but to ask the book the power to save his sister. After being granted exceptional power, the young man successfully killed all the monsters. He then hurried back to his sister who offered him a cookie. The girl starts coughing and strange markings started appearing all over her body. It was when the young man has discovered that his sister has also touched the black book in an attempt to help him, which caused the sickness. The boy cries for help as she passes out. The game then shows us the world that is covered in snow.</p>
+					</article>
+				</section>
+				
+				<section id="act1">
+					<img class="space act1F" src =./images/summary/act1.jpg alt="act 1 screenshot">  <!--shows image and title of the section-->
+					<img class="space act1S" src =./images/summary/act1-s.jpg alt="act 1 screenshot"> 
+					<h6><span class="text">Act I</span></h6>
+					
+					<article> <!--shows content of the section-->
+						<h4>I.</h4>
+						<p>The game brings us to the world 1,412 years later. The protagonist, Nier (unofficial name), is a young man who is seen caring for his sister, Yonah, who is sick with a terminal illness know as the Black Scrawl. The appearance of both resembles that of the two characters from the prologue. The young man works various jobs from the small village that they live in to provide medicine for his sister. This is all until he a met a powerful tome named Grimoire Weiss in the Lost Shrine while saving Yonah. After introducing the tome to Devola and Popola, the young man learns that Weiss might be able to cure his sister of the Black Scrawl if he sets out on the world to retrieve the Sealed Verses.</p>
+						<p>Along this journey, he met a beautiful but foul—mouthed swordswoman named Kaine. She later joined him on his journey after he helped her enact her revenge. They continued to travel the land in search of Sealed Verses until they met Emil, a mysterious boy with the power to petrify anything with his eyesight. He asked them to help him find a cure to his eyesight which led them to discovering the dark truth behind his past.</p>
+						<p>The act concluded with the party returning to the village where the protagonist was hit by a major consequence of his actions.</p>
+						<h3>Act I Main Quests</h3>
+						<ul>
+							<li>Find Some Mutton and Herbs for Popola</li>
+							<li>Kill the Shades by the Bridge in the Northern Plains</li>
+							<li>Search for Yonah in the Lost Shrine</li>
+							<li>Visit the Aerie for the First Time</li>
+							<li>Obtain a Shaman Fish from Seafront</li>
+							<li>Establish the Shop at the Junk Heap</li>
+							<li>Defeat the Giant Shade Attacking Aerie Village</li>
+							<li>Visit Facade and the Barren Temple</li>
+							<li>Deathdream</li>
+							<li>Repairing the Canal</li>
+							<li>Helping the Kid in the Old Manor</li>
+							<li>Defend Your Village</li>
+						</ul>
+					</article>
+				</section>
+				
+				<section id="act2">					
+					<img class="space-right act2F" src =./images/summary/act2.jpg alt="act 2 screenshot">
+					<img class="space-right act2S" src =./images/summary/act2-s.jpg alt="act 2 screenshot">
+					<h6><span class="text-right">Act II</span></h6>
+					
+					<article>
+						<h4>II.</h4>
+						<p>After five years, the game reintroduces us to the protagonist, who is now a much stronger adult. He and Emil ventures further to his manor to discover a certain past which would hopefully help them to recover and regain their strength. After they recovered as a group, they decided to return to the Lost Shrine to gain a clue towards their objective. The party continued to travel the land once again to collect all the key fragments required to access a mysterious place. On their journey, they met various enemies that raised a lot of questions about the truth of the world. It was after they finally reached their objective that the horrifying truth has been revealed. </p>
+						<p>The player is left with choices that will lead to multiple endings.</p>
+						<h3>Act II Main Quests</h3>
+						<ul>
+							<li>The Stone Guardian</li>
+							<li>The Law of Robotics</li>
+							<li>Memory Tree</li>
+							<li>The Missing Ferryman</li>
+							<li>Sacrifice</li>
+							<li>Loyal Cerberus</li>
+							<li>The Shadowlord’s Castle</li>
+						</ul>
+					</article>
+				</section>
+			</main>	
+			
+			<footer class="clear"> <!--footer that shows contact and the button for dark mode-->
+				<p>Contact Us: 1-888-888-8888</p>
+				<p>Email: nierwiki@gmail.com</p>
+				<button onclick="OldPaperMode()">Toggle Old Paper Style</button>
+			</footer>
+		</body>
+</html>
